@@ -86,7 +86,7 @@ svg {
   width: 100%;
   top: 0;
   left: 0;
-  height: 70px;
+  height: 100px;
   background: rgba(255, 255, 255, 0.85);
   z-index: 3;
   overflow: hidden;
@@ -98,11 +98,9 @@ svg {
   transition: all 300ms linear;
 }
 img.logo {
-  position: absolute;
-  top: 24px;
-  left: 5%;
-  z-index: 3;
-  height: 20px;
+  height: 100px;
+  margin-left: 4%;
+  padding: 10px;
   width: auto;
   display: block;
   -webkit-transition: all 300ms linear;
@@ -133,15 +131,15 @@ img.logo {
   /* icon created in CSS */
   position: absolute;
   left: 50%;
-  top: 50%;
+  top: 70%;
   bottom: auto;
   right: auto;
   -webkit-transform: translateX(-50%) translateY(-50%);
   -moz-transform: translateX(-50%) translateY(-50%);
   -ms-transform: translateX(-50%) translateY(-50%);
   -o-transform: translateX(-50%) translateY(-50%);
-  transform: translateX(-50%) translateY(-50%);
-  width: 24px;
+  transform: translateX(-50%) translateY(-10%);
+  width: 40px;
   height: 2px;
   background-color: black;
 }
@@ -173,11 +171,11 @@ img.logo {
   -ms-transform-origin: right top;
   -o-transform-origin: right top;
   transform-origin: right top;
-  -webkit-transform: translateY(-7px);
-  -moz-transform: translateY(-7px);
-  -ms-transform: translateY(-7px);
-  -o-transform: translateY(-7px);
-  transform: translateY(-7px);
+  -webkit-transform: translateY(-10px);
+  -moz-transform: translateY(-10px);
+  -ms-transform: translateY(-10px);
+  -o-transform: translateY(-10px);
+  transform: translateY(-10px);
 }
 .cd-nav-trigger span::after {
   -webkit-transform-origin: right bottom;
@@ -185,11 +183,11 @@ img.logo {
   -ms-transform-origin: right bottom;
   -o-transform-origin: right bottom;
   transform-origin: right bottom;
-  -webkit-transform: translateY(7px);
-  -moz-transform: translateY(7px);
-  -ms-transform: translateY(7px);
-  -o-transform: translateY(7px);
-  transform: translateY(7px);
+  -webkit-transform: translateY(10px);
+  -moz-transform: translateY(10px);
+  -ms-transform: translateY(10px);
+  -o-transform: translateY(10px);
+  transform: translateY(10px);
 }
 .no-touch .cd-nav-trigger:hover {
   /* rotate trigger on hover */
@@ -287,11 +285,11 @@ xnavigation
   left: 5%;
   top: 50%;
   bottom: auto;
-  -webkit-transform: translateY(-50%);
-  -moz-transform: translateY(-50%);
-  -ms-transform: translateY(-50%);
-  -o-transform: translateY(-50%);
-  transform: translateY(-50%);
+  -webkit-transform: translateY(0%);
+  -moz-transform: translateY(0%);
+  -ms-transform: translateY(0%);
+  -o-transform: translateY(0%);
+  transform: translateY(0%);
   /* image replacement */
   overflow: hidden;
   text-indent: 100%;
@@ -735,13 +733,15 @@ main.scale-down {
   overflow: hidden;
 }
 #owl-top .item.top-image-1 {
-  background-image: url('../images/slider/1.jpg');
+  background-image: url('../images/slider/2.jpg');
 }
 #owl-top .item.top-image-2 {
   background-image: url('../images/slider/2.jpg');
 }
 #owl-top .item.top-image-3 {
-  background-image: url('../images/slider/3.jpg');
+  background-image: url('https://res.cloudinary.com/dh41vh9dx/image/upload/v1593129631/finalfloppy.png');
+  background-size: 50%;
+  background-position: center;
 }
 
 #owl-top.owl-theme .owl-controls .owl-buttons .owl-prev {
