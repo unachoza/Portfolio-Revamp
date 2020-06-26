@@ -540,6 +540,9 @@ main.scale-down {
 }
 .cd-section header {
   height: 100vh;
+  z-index: 200;
+  background: linear-gradient(rgba(47, 68, 84), rgba(220, 14, 120, 0.5)), linear-gradient(white, white);
+  /* background-color: #245e6b5d; */
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -3073,6 +3076,17 @@ figure.youtube a img {
   }
 }
 
+.parallax-contacts {
+  background: url('https://res.cloudinary.com/dh41vh9dx/image/upload/v1593182050/mac-open-glow.jpg') repeat fixed;
+  background-size: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+  width: 100%;
+}
 .parallax-contact {
   background: url('https://res.cloudinary.com/dh41vh9dx/image/upload/v1593179999/takehiro-tomiyama-HOP7XFy5rDQ-compressed.jpg')
     repeat fixed;
