@@ -1351,17 +1351,14 @@ a.top-button {
   display: block;
 }
 .list-social-team li {
-  padding: 0;
+  margin: 19px;
+  padding: 50px;
   list-style: none;
   text-align: center;
-  width: 32px;
-  height: 32px;
+  width: 75px;
+  height: 75px;
   display: inline-block;
-  border-radius: 50%;
-  border: 1px solid #414141;
   cursor: pointer;
-  margin-left: 4px;
-  margin-right: 4px;
   -webkit-transition: all 300ms linear;
   -moz-transition: all 300ms linear;
   -o-transition: all 300ms linear;
@@ -1384,8 +1381,8 @@ a.top-button {
   transition: all 300ms linear;
 }
 .list-social-team li:hover {
-  border: 1px solid #16a085;
-  background-color: #16a085;
+  /* border: 1px solid #16a085; */
+  /* background-color: #16a085; */
 }
 .list-social-team li:hover.icon-team a {
   color: #fff;
