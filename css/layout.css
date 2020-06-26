@@ -227,7 +227,7 @@ xnavigation
   z-index: 4;
   top: 0;
   right: 0;
-  width: 25%;
+  width: 35%;
   height: 100%;
   overflow-y: auto;
   background-color: #ffffff;
@@ -268,10 +268,10 @@ xnavigation
 
 @media only screen and (min-width: 700px) {
   .cd-nav-container {
-    width: 25%;
+    width: 15%;
   }
   .cd-nav-container header {
-    height: 116px;
+    height: 100px;
     padding-top: 3em;
   }
 }
@@ -352,11 +352,9 @@ xnavigation
   display: table;
 }
 .cd-nav li {
-  width: 50%;
-  float: left;
   /* 68px is the navigation header height  and the menu items will be allocated in 3 rows */
-  height: calc((100vh - 68px) / 3);
-  min-height: 120px;
+  height: calc((100vh - 50px) / 5);
+  min-height: 75px;
   border: 1px solid #ffffff;
   border-top: none;
   border-left: none;
@@ -377,7 +375,7 @@ xnavigation
 .cd-nav li a span {
   font-family: 'Ionicons';
   color: #212121;
-  font-size: 50px;
+  font-size: 45px;
 }
 .cd-nav li a:hover span {
   color: #16a085;
@@ -410,7 +408,7 @@ xnavigation
   position: absolute;
 }
 .cd-nav span {
-  top: calc(50% - 38px);
+  top: calc(50% - 24px);
   left: 50%;
   -webkit-transform: translateX(-50%);
   -moz-transform: translateX(-50%);
@@ -428,14 +426,13 @@ xnavigation
 .cd-nav em {
   width: 100%;
   left: 0;
-  top: calc(50% + 15px);
+  top: calc(50% + 10px);
   color: #000;
   font-style: normal;
   font-family: 'Open Sans', sans-serif;
   font-weight: 800;
   text-transform: uppercase;
-  letter-spacing: 2px;
-  font-size: 14px;
+  font-size: 12px;
   line-height: 23px;
   -webkit-transition: color 0.2s;
   -moz-transition: color 0.2s;
@@ -446,17 +443,13 @@ xnavigation
 @media only screen and (min-width: 700px) {
   .cd-nav li {
     /* 116px is the navigation header height and the menu items will be allocated in 3 rows */
-    height: calc((100vh - 116px) / 3);
-    min-height: 200px;
+    height: calc((100vh - 103px) / 5);
   }
 }
 @media only screen and (min-width: 1024px) {
   .cd-nav li {
-    width: 33.33%;
-    float: left;
     /* 116px is the navigation header height  and the menu items will be allocated in 2 rows */
-    height: calc((100vh - 116px) / 2);
-    min-height: 250px;
+    height: calc((100vh - 103px) / 5);
   }
   .cd-nav li:nth-of-type(2n) {
     border-right-width: 1px;
