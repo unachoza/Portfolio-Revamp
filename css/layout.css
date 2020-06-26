@@ -733,10 +733,10 @@ main.scale-down {
   overflow: hidden;
 }
 #owl-top .item.top-image-1 {
-  background-image: url('../images/slider/2.jpg');
+  /* background-image: url('../images/slider/2.jpg'); */
 }
 #owl-top .item.top-image-2 {
-  background-image: url('../images/slider/2.jpg');
+  /* background-image: url('../images/slider/2.jpg'); */
 }
 #owl-top .item.top-image-3 {
   background-image: url('https://res.cloudinary.com/dh41vh9dx/image/upload/v1593129631/finalfloppy.png');
