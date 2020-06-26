@@ -3074,9 +3074,22 @@ figure.youtube a img {
     background-position: top center !important;
   }
 }
+.parallax-contactss {
+  background: url('https://res.cloudinary.com/dh41vh9dx/image/upload/v1593185263/david-hofmann-POd35V_uE4k-unsplash.jpg')
+    repeat fixed;
+  background-size: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+  width: 100%;
+}
 
 .parallax-contacts {
-  background: url('https://res.cloudinary.com/dh41vh9dx/image/upload/v1593182050/mac-open-glow.jpg') repeat fixed;
+  background: url('https://res.cloudinary.com/dh41vh9dx/image/upload/v1593184840/hannah-joshua-46T6nVjRc2w-unsplash.jpg')
+    repeat fixed;
   background-size: cover;
   position: absolute;
   top: 0;
