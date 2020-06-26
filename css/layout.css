@@ -2803,13 +2803,15 @@ figure.youtube a img {
   width: 100%;
   max-width: 950px;
   margin: 0 auto;
-  padding-bottom: 40px;
+  padding-bottom: 10px;
+  border-radius: 5px;
+  background-color: rgba(192, 192, 192, 0.5);
 }
 .quote-text {
   text-align: center;
   letter-spacing: 2px;
   font-family: 'Inconsolata';
-  font-weight: 400;
+  font-weight: 600;
   font-size: 18px;
   line-height: 32px;
   color: #fff;
@@ -3072,7 +3074,8 @@ figure.youtube a img {
 }
 
 .parallax-contact {
-  background: url('../images/parallax/7.jpg') repeat fixed;
+  background: url('https://res.cloudinary.com/dh41vh9dx/image/upload/v1593179999/takehiro-tomiyama-HOP7XFy5rDQ-compressed.jpg')
+    repeat fixed;
   background-size: cover;
   position: absolute;
   top: 0;
