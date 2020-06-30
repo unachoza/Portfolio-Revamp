@@ -1353,6 +1353,9 @@ a.top-button {
 .skill-logo-img {
   width: 120px;
 }
+.skill-logo-img-height {
+  height: 120px;
+}
 .list-social-team li {
   margin: 19px;
   list-style: none;
