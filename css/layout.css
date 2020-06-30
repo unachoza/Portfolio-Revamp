@@ -1350,11 +1350,28 @@ a.top-button {
   margin: 0 auto;
   display: block;
 }
+
 .skill-logo-img {
   width: 120px;
 }
 .skill-logo-img-height {
   height: 120px;
+}
+@media only screen and (min-width: 960px) and (max-width: 1199px) {
+  .skill-logo-img {
+    width: 90px;
+  }
+  .skill-logo-img-height {
+    height: 90px;
+  }
+}
+@media only screen and (min-width: 500px) and (max-width: 959px) {
+  .skill-logo-img {
+    width: 75px;
+  }
+  .skill-logo-img-height {
+    height: 75px;
+  }
 }
 .list-social-team li {
   margin: 19px;
