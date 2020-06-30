@@ -1350,9 +1350,11 @@ a.top-button {
   margin: 0 auto;
   display: block;
 }
+.skill-logo-img {
+  width: 120px;
+}
 .list-social-team li {
   margin: 19px;
-  padding: 50px;
   list-style: none;
   text-align: center;
   width: 75px;
