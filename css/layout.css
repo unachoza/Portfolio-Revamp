@@ -3151,7 +3151,8 @@ figure.youtube a img {
 }
 
 .parallax-project-1 {
-  background: url('../images/portfolio/1a.jpg') repeat fixed;
+  background: url('https://res.cloudinary.com/dh41vh9dx/image/upload/c_scale,w_1400/v1593186749/nihonorway-graphy-nCvi-gS5r88-unsplash.jpg')
+    repeat fixed;
   background-size: cover;
   position: absolute;
   top: 0;
@@ -3182,7 +3183,8 @@ figure.youtube a img {
 }
 
 .parallax-project-2 {
-  background: url('../images/portfolio/2a.jpg') repeat fixed;
+  background: url('https://res.cloudinary.com/dh41vh9dx/image/upload/c_scale,w_1400/v1593186749/nihonorway-graphy-nCvi-gS5r88-unsplash.jpg')
+    repeat fixed;
   background-size: cover;
   position: absolute;
   top: 0;
@@ -3213,7 +3215,8 @@ figure.youtube a img {
 }
 
 .parallax-project-3 {
-  background: url('../images/portfolio/3a.jpg') repeat fixed;
+  background: url('https://res.cloudinary.com/dh41vh9dx/image/upload/c_scale,w_1400/v1593186749/nihonorway-graphy-nCvi-gS5r88-unsplash.jpg')
+    repeat fixed;
   background-size: cover;
   position: absolute;
   top: 0;
