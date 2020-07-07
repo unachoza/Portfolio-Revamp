@@ -1,5 +1,6 @@
+<ifModule mod_headers.c> Header set Connection keep-alive </ifModule>
 # One month for most static assets
 <filesMatch ".(png|js)$">
 Header set Cache-Control "max-age=2628000, public"
 </filesMatch>
-<ifModule mod_headers.c> Header set Connection keep-alive </ifModule>
+
