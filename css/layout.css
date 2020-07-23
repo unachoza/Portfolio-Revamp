@@ -1641,7 +1641,7 @@ a.top-button {
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
   font-size: 20px;
-  color: #ffffff;
+  color: #8d8d8d;
   margin-bottom: 5px;
   text-align: center;
   outline: none;
@@ -3071,12 +3071,13 @@ figure.youtube a img {
 }
 
 .parallax-blog {
-  background: url('../images/parallax/6.jpg') repeat fixed;
+  background: url('https://res.cloudinary.com/dh41vh9dx/image/upload/v1595464136/photo-1518674660708-0e2c0473e68e.jpg')
+    repeat fixed;
   background-size: cover;
   position: absolute;
   top: 0;
   left: 0;
-  right: 0;
+  right: -20;
   bottom: 0;
   z-index: -1;
   width: 100%;
