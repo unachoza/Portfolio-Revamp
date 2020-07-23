@@ -353,7 +353,7 @@ xnavigation
 }
 .cd-nav li {
   /* 68px is the navigation header height  and the menu items will be allocated in 3 rows */
-  height: calc((100vh - 50px) / 5);
+  height: calc((100vh - 50px) / 6);
   min-height: 75px;
   border: 1px solid #ffffff;
   border-top: none;
@@ -443,13 +443,13 @@ xnavigation
 @media only screen and (min-width: 700px) {
   .cd-nav li {
     /* 116px is the navigation header height and the menu items will be allocated in 3 rows */
-    height: calc((100vh - 103px) / 5);
+    height: calc((100vh - 103px) / 6);
   }
 }
 @media only screen and (min-width: 1024px) {
   .cd-nav li {
     /* 116px is the navigation header height  and the menu items will be allocated in 2 rows */
-    height: calc((100vh - 103px) / 5);
+    height: calc((100vh - 103px) / 6);
   }
   .cd-nav li:nth-of-type(2n) {
     border-right-width: 1px;
@@ -1277,6 +1277,7 @@ a.top-button {
   text-align: left;
   font-family: 'Federo', sans-serif;
   font-weight: bold;
+  letter-spacing: 0px;
 }
 
 .about-top-text {
@@ -2191,7 +2192,7 @@ a.top-button {
   position: relative;
 }
 .blog-box-1 .date p {
-  font-family: 'Inconsolata';
+  font-family: 'Federo';
   font-weight: 400;
   font-size: 14px;
   line-height: 23px;
@@ -2207,6 +2208,7 @@ a.top-button {
   margin-top: 19px;
   float: right;
   display: block;
+  font-weight: bold;
 }
 .blog-box-1 h5 {
   position: relative;
