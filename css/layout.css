@@ -1455,7 +1455,11 @@ a.top-button {
   position: relative;
   text-align: center;
   padding-bottom: 20px;
+  font-family: federo;
+  font-weight: 600;
+  text-transform: capitalize;
 }
+
 .about-block-scnd h5:after {
   position: absolute;
   content: '';
@@ -1798,6 +1802,7 @@ a.top-button {
 .project-block .det-name p {
   font-weight: 700;
   text-align: left;
+  font-family: inconsolata;
   text-transform: uppercase;
 }
 .project-block .det-name p span {
