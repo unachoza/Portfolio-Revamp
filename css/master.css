@@ -1089,9 +1089,13 @@ a.top-button {
 .background-color {
   background: linear-gradient(rgba(47, 68, 84), rgba(220, 14, 120, 0.5)), linear-gradient(white, white);
 }
+.height500 {
+  height: 500px;
+}
 .section-padding-top-bottom-head {
   padding-top: 130px;
   padding-bottom: 40px;
+  height: 500px;
 }
 .section-padding-top-bottom-head .section-head-text h2 {
   /* color: #fff; */
@@ -1173,11 +1177,24 @@ a.top-button {
   text-align: left;
   padding-top: 20px;
 }
-
+.section-head-text-projects {
+  color: black;
+  position: relative;
+  font-family: Federo;
+  font-weight: bold;
+  background-color: rgba(255, 255, 255, 0.5);
+  padding: 25px;
+  width: fit-content;
+  border-radius: 4px;
+}
+.section-head-text-projects h2 {
+  font-family: Federo;
+  font-weight: bold;
+  text-align: left;
+}
 .section-head-text {
   color: black;
   position: relative;
-  width: 100%;
   margin: 0 auto;
   padding-bottom: 20px;
   font-family: Federo;
