@@ -2590,6 +2590,7 @@ figure.youtube a img {
   font-family: 'Open Sans', sans-serif;
   font-size: 14px;
   line-height: 30px;
+  color: black;
 }
 #ajax-form input {
   position: relative;
@@ -2604,7 +2605,7 @@ figure.youtube a img {
   padding-bottom: 15px;
   background: transparent;
   border: none;
-  color: #737373;
+  color: black;
   -webkit-transition: border-bottom 0.3s, color 0.3s;
   transition: border-bottom 0.3s, color 0.3s;
 }
@@ -2627,7 +2628,7 @@ figure.youtube a img {
 }
 #ajax-form textarea,
 #ajax-form input {
-  border-bottom: 1px solid rgba(100, 100, 100, 0.2);
+  border-bottom: 1px solid black;
 }
 .error {
   font: 11px/22px 'Open Sans', sans-serif;
@@ -2668,49 +2669,49 @@ figure.youtube a img {
   font-size: 11px;
   text-transform: uppercase;
   letter-spacing: 2px;
-  color: #999999;
+  color: black;
 }
 #ajax-form input::-moz-placeholder {
   font-size: 11px;
   text-transform: uppercase;
   letter-spacing: 2px;
-  color: #999999;
+  color: black;
 }
 #ajax-form input:-moz-placeholder {
   font-size: 11px;
   text-transform: uppercase;
   letter-spacing: 2px;
-  color: #999999;
+  color: black;
 }
 #ajax-form input::-webkit-input-placeholder {
   font-size: 11px;
   text-transform: uppercase;
   letter-spacing: 2px;
-  color: #999999;
+  color: black;
 }
 #ajax-form textarea:-ms-input-placeholder {
   font-size: 11px;
   text-transform: uppercase;
   letter-spacing: 2px;
-  color: #999999;
+  color: black;
 }
 #ajax-form textarea::-moz-placeholder {
   font-size: 11px;
   text-transform: uppercase;
   letter-spacing: 2px;
-  color: #999999;
+  color: black;
 }
 #ajax-form textarea:-moz-placeholder {
   font-size: 11px;
   text-transform: uppercase;
   letter-spacing: 2px;
-  color: #999999;
+  color: black;
 }
 #ajax-form textarea::-webkit-input-placeholder {
   font-size: 11px;
   text-transform: uppercase;
   letter-spacing: 2px;
-  color: #999999;
+  color: black;
 }
 #ajax-form button {
   position: relative;
