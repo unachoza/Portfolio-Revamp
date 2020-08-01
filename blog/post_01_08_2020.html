@@ -44,19 +44,21 @@
 
     <!-- CSS
   ================================================== -->
-  <link rel="stylesheet" href="../css/master.css" />
-  <script src="../js/modernizr.js"></script><!-- Modernizr -->
-        <!-- Global site tag (gtag.js) - Google Analytics -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-172770444-1"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
+    <link rel="stylesheet" href="../css/master.css" />
+    <script src="../js/modernizr.js"></script>
+    <!-- Modernizr -->
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-172770444-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag('js', new Date());
 
-    gtag('config', 'UA-172770444-1');
-  </script>
-
-</head>
+      gtag('config', 'UA-172770444-1');
+    </script>
+  </head>
   <body>
     <div class="animsition">
       <div class="nav-wrapper cbp-af-header">
@@ -99,7 +101,7 @@
             <div class="fifteen columns offset-by-one">
               <div class="blog-box-1 post-page">
                 <div class="date">
-                  <p><span>23</span>July 2020 <em>Arianna Choza</em></p>
+                  <p><span>01</span>August 2020 <em>Arianna Choza</em></p>
                 </div>
               </div>
             </div>
@@ -109,21 +111,25 @@
             >
               <div class="project-block">
                 <p>
-                  Tomorrow I'm going live, whether I like it or not.
+                  Quote Generator Project
                 </p>
               </div>
             </div>
             <div class="eight columns offset-by-one" data-scroll-reveal="enter bottom move 100px over 0.6s after 0.3s">
               <div class="project-block">
                 <p>
-                  Deadlines are very important. There needs to be an ending point, pencils down, times up, surrender.
+                  Generate a new quote with a click of a button and also share the quote to Twitter
                 </p>
               </div>
             </div>
             <div class="eight columns offset-by-one" data-scroll-reveal="enter bottom move 100px over 0.6s after 0.3s">
               <div class="project-block">
                 <p>
-                  Maecenas volutpat,
+                  I chose to give the user options of which quotes they would like generated to appeal to a wider user
+                  audiance. Working with mutliple APIs, I need a way to normalize the data response to aviod writing
+                  repetitive code for each API call. This became a two very nested ternary functions. Another challenge
+                  I ran into, the DevLorem Api returned html not a string like the others. I implemented a Regular
+                  Expression to remove the < p > tags and normalize further.
                 </p>
               </div>
             </div>
