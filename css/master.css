@@ -1092,10 +1092,27 @@ a.top-button {
 .height500 {
   height: 500px;
 }
+#height400 {
+  height: 400px;
+}
+.margin-left {
+  margin-left: -30px;
+}
+
+@media only screen and (max-width: 1000px) {
+  #smallerHero {
+    height: 273px;
+    margin-top: 80px;
+  }
+  .margin-left {
+    margin-left: 0;
+  }
+}
+
 .section-padding-top-bottom-head {
   padding-top: 130px;
   padding-bottom: 40px;
-  height: 500px;
+  height: 400px;
 }
 .section-padding-top-bottom-head .section-head-text h2 {
   /* color: #fff; */
@@ -1659,6 +1676,7 @@ a.top-button {
 }
 
 #filter li {
+  margin: 5px;
   display: inline-block;
   text-align: center;
 }
