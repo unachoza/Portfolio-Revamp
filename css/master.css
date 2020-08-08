@@ -1117,6 +1117,7 @@ a.top-button {
 .section-padding-top-bottom-head .section-head-text h2 {
   /* color: #fff; */
 }
+
 .section-padding-top-bottom-head .section-head-text.left h2:after {
   background-color: black;
 }
@@ -1203,11 +1204,13 @@ a.top-button {
   padding: 25px;
   width: fit-content;
   border-radius: 4px;
+  text-transform: uppercase;
 }
 .section-head-text-projects h2 {
   font-family: Federo;
   font-weight: bold;
   text-align: left;
+  text-transform: uppercase;
 }
 .section-head-text {
   color: black;
@@ -1235,7 +1238,7 @@ a.top-button {
   bottom: 0;
   z-index: 1;
 }
-.section-head-text.left h2:after {
+.section-head-text-projects.left h2:after {
   position: absolute;
   content: '';
   background-color: rgba(0, 0, 0, 0.3);
@@ -1299,6 +1302,13 @@ a.top-button {
   margin-left: 0;
   bottom: 0;
   z-index: 1;
+}
+.section-head-text-projects p {
+  font-size: 16px;
+  letter-spacing: 2px;
+  color: black;
+  padding-top: 20px;
+  text-transform: uppercase;
 }
 .section-head-text p {
   font-size: 16px;
