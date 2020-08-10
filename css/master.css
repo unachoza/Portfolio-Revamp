@@ -976,6 +976,7 @@ a.top-button {
   bottom: -30px;
   z-index: 1;
   opacity: 0;
+  border-radius: 5px;
   -webkit-transition: all 200ms linear;
   -moz-transition: all 200ms linear;
   -o-transition: all 200ms linear;
@@ -1620,6 +1621,7 @@ a.top-button {
 }
 .portfolio-box-1:hover .mask-1 {
   background: #16a085;
+  border-radius: 5px;
 }
 .portfolio-box-1 h6 {
   position: absolute;
@@ -1672,6 +1674,7 @@ a.top-button {
   width: 100%;
   height: auto;
   display: block;
+  border-radius: 5px;
 }
 
 #portfolio-filter {
