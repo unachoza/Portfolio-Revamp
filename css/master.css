@@ -1626,6 +1626,7 @@ a.top-button {
   box-sizing: border-box;
   background: rgba(0, 0, 0, 0);
   z-index: 2;
+  box-shadow: 0 10px 10px 10px rgba(0, 0, 0, 0.5);
   -webkit-transition: all 300ms linear;
   -moz-transition: all 300ms linear;
   -o-transition: all 300ms linear;
@@ -1635,6 +1636,7 @@ a.top-button {
 .portfolio-box-1:hover .mask-1 {
   background: #16a085;
   border-radius: 5px;
+  box-shadow: 0 10px 10px 10px rgba(0, 0, 0, 0.5);
 }
 .portfolio-box-1 h6 {
   position: absolute;
@@ -1688,6 +1690,10 @@ a.top-button {
   height: auto;
   display: block;
   border-radius: 5px;
+  box-shadow: 0 10px 10px 10px rgba(0, 0, 0, 0.5);
+}
+.porfolio-box-1.mask-1 img {
+  box-shadow: 0 10px 10px 10px rgba(0, 0, 0, 0.5);
 }
 
 #portfolio-filter {
