@@ -1483,7 +1483,7 @@ a.top-button {
   overflow: hidden;
   -webkit-transform: translate3d(1px, 0, 0);
   transform: translate3d(1px, 0, 0);
-  box-shadow: 0 10px 10px 10px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 10px 12px 8px rgba(0, 0, 0, 0.5);
   border-radius: 5px;
 }
 
@@ -1538,6 +1538,7 @@ a.top-button {
 .portfolio-box-1:hover .mask-1 .text h6 {
   color: white;
   opacity: 1;
+  line-height: 30px;
 }
 /* .portfolio-box-1 p {
   position: absolute;
@@ -1663,6 +1664,7 @@ a.top-button {
 }
 #filter li a:hover {
   color: #16a085;
+  transform: scale(1.1);
 }
 .isotope-item {
   z-index: 2;
