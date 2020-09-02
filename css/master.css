@@ -2272,7 +2272,6 @@ a.top-button {
 }
 a.blog-link {
   position: relative;
-  width: 130px;
   color: #16a085;
   letter-spacing: 2px;
   font-size: 15px;
@@ -6892,6 +6891,8 @@ figure.youtube a img {
 }
 .fa-heart-o:before {
   content: '\f08a';
+}
+.fa-link {
 }
 .fa-sign-out:before {
   content: '\f08b';
