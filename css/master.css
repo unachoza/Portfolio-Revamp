@@ -3511,7 +3511,12 @@ figure.youtube a img {
 .columns.omega {
   margin-right: 0;
 }
-
+.offset {
+  max-width: 1150px;
+  margin-left: 100px;
+  display: flex;
+  justify-content: space-evenly;
+}
 /* Base Grid */
 .container .one.column,
 .container .one.columns {
