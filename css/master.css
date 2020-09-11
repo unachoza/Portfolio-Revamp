@@ -7224,9 +7224,34 @@ html {
   text-align: center;
   height: 250px;
 }
+.project-section-header {
+  font-family: federo;
+  font-size: 24px;
+  font-weight: bolder;
+  color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 45px;
+  margin-bottom: -10px;
+}
+.project-content {
+  font-family: 'Slabo 27px', serif;
+  font-size: 15px;
+  align-items: justify;
+  padding: 6px;
+  color: rgb(22, 22, 22);
+}
 @media only screen and (max-width: 720px) {
   .project-block blog-quote {
     height: 350px;
+  }
+  .project-section-header {
+    font-size: 22px;
+  }
+  .project-content {
+    font-size: 14px;
+    padding: 4px 10px;
   }
 }
 
