@@ -7411,11 +7411,21 @@ ul ol li,
 ol ol li,
 ol ul li {
 }
+.project-subheadings {
+  font-family: federo;
+  font-size: 22px;
+  font-weight: bolder;
+  color: black;
+  text-align: center;
+  line-height: 30px;
+  margin: 10px 0px;
+}
 li {
   line-height: 18px;
 }
 ul.large li {
-  line-height: 21px;
+  line-height: 30px;
+  margin: 10px 0px;
 }
 li p {
   line-height: 21px;
