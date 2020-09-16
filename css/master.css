@@ -1813,13 +1813,12 @@ a.top-button {
   clear: both;
 }
 .project-block p {
-  text-align: left;
+  ext-align: left;
   font-family: 'Neucha';
   font-size: 20px;
   color: #3d3b3b;
-  letter-spacing: 3px;
-  line-height: 1.2;
-  text-transform: uppercase;
+  letter-spacing: 2px;
+  line-height: 1.1;
 }
 
 @media only screen and (max-width: 600px) {
@@ -7410,6 +7409,11 @@ ul ul li,
 ul ol li,
 ol ol li,
 ol ul li {
+}
+.three-project-images {
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.8);
+  border-radius: 4px;
+  /* height: 200px; */
 }
 .project-subheadings {
   font-family: federo;
