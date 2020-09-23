@@ -1092,7 +1092,7 @@ a.top-button {
 
 @media only screen and (max-width: 600px) {
   .section-head-text-projects {
-    width: 80%;
+    width: 86%;
     padding: 20px;
   }
 }
@@ -7435,6 +7435,7 @@ ol ul li {
 .subsub {
   font-size: 18px;
   margin: 0;
+  color: 323131;
 }
 .left {
   text-align: left;
