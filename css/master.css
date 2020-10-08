@@ -1801,7 +1801,13 @@ a.top-button {
   top: 0;
   height: 100%;
 }
-
+.project-blog-container {
+}
+#project-blog-img {
+  width: 275px;
+  width: 200px;
+  height: 200px;
+}
 .project-block {
   position: relative;
   width: 100%;
@@ -3567,6 +3573,12 @@ figure.youtube a img {
   margin-top: 25px;
   margin-bottom: 10px;
 }
+.project-blog-container {
+  border-radius: 7px;
+  background-color: #f7f6f359;
+  box-shadow: 0 0.3rem 0.3rem rgba(0, 0, 0, 0.2);
+}
+
 .row {
   margin-bottom: 50px;
 }
@@ -7418,7 +7430,8 @@ ol ul li {
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.8);
   border-radius: 4px;
   margin: 0px;
-  /* height: 200px; */
+  width: 275px;
+  height: 250px;
 }
 .smaller-columns {
   margin: 0px;
@@ -7455,6 +7468,7 @@ ul.large li {
   line-height: 30px;
   margin-top: 10px;
   margin-bottom: -5px;
+  color: #10109b;
 }
 li p {
   line-height: 21px;
