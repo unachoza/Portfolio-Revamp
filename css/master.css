@@ -1808,15 +1808,18 @@ a.top-button {
   width: 200px;
   height: 200px;
 }
-.project-block {
-  position: relative;
-  width: 100%;
-  overflow: hidden;
-}
+
 .project-block:after {
   content: '';
   display: block;
   clear: both;
+}
+.project-block {
+  display: flex;
+  width: 100%;
+  overflow: hidden;
+  justify-content: center;
+  padding: 5px;
 }
 .project-block p {
   text-align: left;
@@ -1826,6 +1829,14 @@ a.top-button {
   letter-spacing: 2px;
   line-height: 1.1;
   padding: 5px 7px;
+}
+.project-block p .tech-stack {
+  text-align: center;
+  padding: 3px 5px;
+}
+.tech-stack p {
+  text-align: center;
+  padding: 3px 5px;
 }
 #center {
   text-align: center;
@@ -7452,6 +7463,9 @@ ol ul li {
 }
 .left {
   text-align: left;
+}
+.column-direction {
+  flex-direction: column;
 }
 .padding {
   padding: 5px 10px;
